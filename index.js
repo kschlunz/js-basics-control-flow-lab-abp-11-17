@@ -16,13 +16,13 @@ else if (feet >= 2500){
 
 switch(phrase) {
       case 'generous':
-          console.log('Thank you so much.');
+          return ('Thank you so much.');
           break;
 
       case 'not as generous':
-          console.log('Thank you.');
+          return ('Thank you.');
           break;
 
       default:
-        console.log('Bye.');
+        return ('Bye.');
   }
