@@ -41,3 +41,4 @@ switch(phrase) {
         return 'Bye.';
         break;
   }
+}
