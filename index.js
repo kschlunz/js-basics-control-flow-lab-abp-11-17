@@ -1,4 +1,3 @@
-// Write your code in this file!function scuberGreetingForFeet(feet){
 function scuberGreetingForFeet(feet){
 if (feet <= 400){
   return "This one is on me!"
@@ -14,16 +13,16 @@ else if (feet >= 2500){
 }
 
 
-
-switch (switchOnCharmFromTip){
+function switchOnCharmFromTip(phrase){
+switch(phrase) {
       case 'generous':
-          console.log('Thank you so much.');
+          return('Thank you so much.');
           break;
 
       case 'not as generous':
-          console.log('Thank you.');
+          return('Thank you.');
           break;
 
       default:
-        console.log('Bye.');
+        return ('Bye.');
   }
