@@ -4,20 +4,10 @@ if (feet <= 400){
 }
 
 else if (feet >= 2000 && feet <= 2499){
-  return "I will glad take your thirty bucks."
+  return "I will gladly take your thirty bucks."
 }
 
 else if (feet >= 2500){
   return "No can do."
 }
 }
-
-
-
-
-
-
-
-
-
-
