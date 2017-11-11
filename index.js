@@ -20,16 +20,4 @@ else if (feet >= 2500){
 
 
 
-function switchOnCharmFromTip(phrase){
-switch(phrase) {
-      case 'generous':
-          console.log('Thank you so much.');
-          break;
 
-      case 'not as generous':
-          console.log('Thank you.');
-          break;
-
-      default:
-        console.log('Bye.');
-  }
