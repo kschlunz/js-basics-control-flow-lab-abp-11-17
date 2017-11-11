@@ -39,4 +39,5 @@ switch(phrase) {
 
       default:
         return 'Bye.';
+        break;
   }
